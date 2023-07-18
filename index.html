@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="indexScript.js"></script>
+    <title>Eisdielensimulator</title>
+</head>
+<body>
+    <header>
+        <h1>Eisdielensimulator</h1>
+    </header>
+    <main>
+        
+        <form>
+            <h3>Erstelle hier Deine eigenen Eiskreationen!</h3>
+            <input type="text" placeholder="Benenne Deinen Eisbecher" id="name">
+            <br>
+            <br>
+            <h4>Welche Sorten sollen in Deinen Eisbecher?</h4>
+            <input type="checkbox" id="schokolade">
+            <label for="schokolade">Schokolade</label>
+            <input type="checkbox" id="vanille">
+            <label for="vanille">Vanille</label>
+            <br>
+            <input type="checkbox" id="zitrone">
+            <label for="zitrone">Zitrone</label>
+            <input type="checkbox" id="erdbeere">
+            <label for="erdbeere">Erdbeere</label>
+            <br>
+            <input type="checkbox" id="banane">
+            <label for="banane">Banane</label>
+            <input type="checkbox" id="stracciatella">
+            <label for="stracciatella">Stracciatella</label>
+            <br>
+            <br>
+            <h4>Soll Sahne auf Deinen Eisbecher?</h4>
+            <select id="whippedCream">
+                <option value="yes">Ja</option>
+                <option value="no">Nein</option>
+            </select>
+            <br>
+            <h4>Welche Toppings willst Du haben?</h4>
+            <input type="checkbox" id="streusel">
+            <label for="streusel">Streusel</label>
+            <input type="checkbox" id="sosse">
+            <label for="sosse">Sosse</label>
+            <br>
+            <br>
+            <label for="priceSlider">Wie viel soll der Eisbecher kosten?</label>
+            <br>
+            <input type="range" id="priceSlider"  min="1" max="10" step="1">
+            <p id="currentPrice">Der Eisbecher kostet 6 €
+            </p>
+            <br>
+            <br>
+            <button id="nextIceCream">Weiteres Gericht hinzufügen</button>
+            <button id="play">Play</button>
+        </form>
+    </main>
+</body>
+</html>

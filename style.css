@@ -1,0 +1,35 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: lightcyan;
+}
+
+h1{
+    padding-top: 2%;
+    text-align: center;
+}
+
+form{
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
+#nextIceCream{
+    height: 30px;
+    margin-right: 3%;
+}
+
+#play{
+    height: 30px;
+}
+
+#name{
+    height: 30px;
+    width: 200px;
+    background-color: gainsboro;
+}
+
+#name::placeholder{
+    color: black;
+    text-align: center;
+}
